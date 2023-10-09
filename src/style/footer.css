@@ -1,0 +1,100 @@
+footer {
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+
+}
+
+.footerDesc {
+    color: white;
+}
+
+.shortLinkHeading {
+    color: #26d48c;
+}
+
+.topOfHeader {
+    display: flex;
+    gap: 2.4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+    padding-right: 3rem;
+}
+
+.footerLinks a {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-decoration: none;
+}
+
+.footerContactUs i.fa-solid {
+    background: none;
+    width: none;
+}
+
+.footerLinks a {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.aOfHeader {
+    width: 39rem;
+    padding-left: 2rem;
+    padding-right: 4rem;
+}
+
+.topOfHeader {
+    display: flex;
+    gap: 2.4rem;
+    padding-bottom: 4rem;
+    padding-top: 4rem;
+}
+
+.footerLastLink a {
+    border-bottom: 1px solid;
+}
+
+@media(max-width:1090px) {
+
+    .topOfHeader {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .aOfHeader {
+        width: 35rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+p.footerDesc {
+    width: 17rem;
+    text-align: center;
+}
+
+.footerFoot {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    color: white;
+    border-top: 2px solid #26d48c;
+}
+
+.footerFoot span{
+    color: #26d48c;
+}

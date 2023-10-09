@@ -1,0 +1,68 @@
+.darkNav {
+    padding-left: 1rem;
+    background: black;
+    color: gray;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+    padding-top: 1rem;
+    height: 2.4rem;
+    padding-bottom: 3rem;
+}
+
+.socialIcons {
+    color: blue;
+    display: flex;
+    gap: 14px;
+    width: 10rem;
+    font-size: 1.5rem;
+    margin-right: 2rem;
+}
+
+i {
+    background: white;
+    padding: 7px;
+    border-radius: 50%;
+    height: 2.3rem;
+}
+
+
+i.fa.fa-envelope {
+    color: #26d48c;
+    background: none;
+}
+
+i.fa.fa-map-marker {
+    color: #26d48c;
+    background: none;
+}
+
+marquee {
+    color: #26d48c;
+}
+
+.left {
+    display: flex;
+    gap: 1rem;
+    padding-left: 2rem;
+}
+
+.fa-facebook-f{
+    padding: 12px;
+    display: flex;
+    align-items: center;
+}
+
+@media(max-width:1180px) {
+    marquee {
+        display: none;
+    }
+}
+
+
+@media(max-width:770px) {
+    .darkNav {
+        display: none;
+    }
+}

@@ -1,0 +1,208 @@
+#ourTeamDiv img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+
+#ourTeamDiv .img {
+    max-width: 11rem;
+    border: 14px solid #26d48c;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+#ourTeamDiv img {
+    margin: 1rem;
+    height: 14rem;
+    border-radius: 51%;
+    filter: brightness(100%);
+    max-width: 13rem;
+    border: 10px solid #26d48c;
+    /* margin-top: -1rem; */
+    z-index: 1;
+}
+
+#ourTeamDiv .shape {
+    clip-path: polygon(0 1%, 100% 0, 100% 19%, 100% 18%, 49% 46%, 0 19%);
+    background-color: #26d48c;
+    position: relative;
+    content: '';
+    height: 7rem;
+    top: 4rem;
+    z-index: 1;
+    width: 100%;
+}
+
+#ourTeamDiv .testimonialInd {
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 19rem;
+}
+
+#ourTeamDiv .testBottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.parentTeam {
+    display: flex;
+    gap: 1rem;
+    max-width: 100%;
+}
+
+
+
+#ourTeamDiv a.carousel-control-next {
+    position: absolute;
+    top: -7rem;
+    right: 7rem;
+    width: 3rem;
+    border-radius: 50%;
+    height: 3rem;
+    background-color: #26d48c;
+}
+
+/* #ourTeamDiv a.carousel-control-next :hover {
+    background-color: blue;
+}
+
+#ourTeamDiv a.carousel-control-prev :hover {
+    background-color: blue;
+} */
+
+
+
+
+#ourTeamDiv a.carousel-control-prev {
+    position: absolute;
+    top: -7rem;
+    width: 3rem;
+    border-radius: 50%;
+    height: 3rem;
+    left: 67rem;
+    background-color: #26d48c;
+}
+
+#ourTeamDiv .socialIconsTestimonial {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+#ourTeamDiv .carousel-indicators {
+    display: none;
+}
+
+
+
+@media(max-width:990px) {
+    .parentTeam {
+        gap: 1rem;
+        padding: 0;
+    }
+
+
+    .parentTeam #third {
+        display: none;
+    }
+}
+
+@media(max-width:1200px) {
+    #ourTeamDiv a.carousel-control-prev {
+        position: absolute;
+        top: -7rem;
+        width: 3rem;
+        border-radius: 50%;
+        height: 3rem;
+        left: 33rem;
+    }
+
+    #ourTeamDiv a.carousel-control-next {
+        position: absolute;
+        top: -7rem;
+        right: 4rem;
+        width: 3rem;
+        border-radius: 50%;
+        height: 3rem;
+    }
+}
+
+
+@media(max-width:850px) {
+    #ourTeamDiv a.carousel-control-next {
+        position: absolute;
+        top: -7rem;
+        right: 9rem;
+        width: 3rem;
+        border-radius: 50%;
+        height: 3rem;
+    }
+
+    #ourTeamDiv a.carousel-control-prev {
+        position: absolute;
+        top: -7rem;
+        width: 3rem;
+        border-radius: 50%;
+        height: 3rem;
+        left: 24rem;
+    }
+
+}
+
+@media(max-width:485px) {
+
+    #ourTeamDiv a.carousel-control-prev {
+        position: absolute;
+        top: -7rem;
+        width: 3rem;
+        border-radius: 50%;
+        height: 3rem;
+        left: 19rem;
+    }
+
+}
+
+
+@media(max-width:425px) {
+    #ourTeamDiv a.carousel-control-prev {
+        position: absolute;
+        top: -7rem;
+        width: 3rem;
+        border-radius: 50%;
+        height: 3rem;
+        left: 13rem;
+    }
+}
+
+
+
+@media(max-width:620px) {
+    .parentTeam #second {
+        display: none;
+    }
+}
+
+.testBottom a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.testimonialInd i {
+    background-color: #26d48c;
+    display: flex;
+    color: white;
+    align-items: center;
+}
+
+.testimonialInd {
+    padding-bottom: 1rem;
+    margin-top: -4rem;
+
+}

@@ -1,0 +1,32 @@
+.mainDivOfNotFound a{
+    text-decoration: none;
+    background-color: blue;
+    padding-top: 1rem;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+    color: white;
+    max-width: 15rem;
+}
+
+.mainDivOfNotFound h1{
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.mainDivOfNotFound p{
+    color: gray;
+}
+
+.mainDivOfNotFound{
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourOfour{
+    padding-top: 5rem;
+}

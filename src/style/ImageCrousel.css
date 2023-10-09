@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300&display=swap');
+
+
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a.carousel-control-prev {
+    background: blue;
+    height: 5rem;
+    border-top-right-radius: 4rem;
+    border-bottom-right-radius: 4rem;
+    top: 15rem;
+    width: 7rem;
+}
+
+nav {
+    z-index: 2;
+}
+
+a.carousel-control-next {
+    background: blue;
+    height: 5rem;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    top: 15rem;
+    width: 7rem;
+}
+
+a.carousel-control-next:hover {
+    background-color: #26d48c;
+}
+
+a.carousel-control-prev:hover {
+    background-color: #26d48c;
+}
+
+#imageCrouselDiv img {
+    height: 41rem;
+    width: 100%;
+    filter: brightness(50%);
+}
+
+.carousel-caption h3 {
+    color: #26d48c;
+}
+
+.carousel-caption h1 {
+    font-size: 5rem;
+}
+
+.carousel-caption p {
+    font-size: 23px;
+    text-align: center;
+}
+
+.buttons {
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+
+.buttons a {
+    text-decoration: none;
+    margin: 6px;
+    background: red;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    border-radius: 2rem;
+    font-weight: bold;
+    transition: .6s;
+}
+
+.buttons a:first-child {
+    background: #26d48c;
+    color: black;
+}
+
+.buttons a:first-child:hover {
+    background: blue;
+    color: white;
+}
+
+.buttons a:nth-child(2) {
+    background: blue;
+    color: white;
+}
+
+.buttons a:nth-child(2):hover {
+    background: #26d48c;
+    color: black;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 33px;
+    height: 10px;
+    border-radius: 46%;
+    background: blue;
+    margin-top: 2rem;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+    background: #26d48c;
+}
+
+#crouselCaption {
+    position: absolute;
+    top: 14.5rem;
+    z-index: 1;
+    animation: fadeInLeft 1s ease-in-out;
+}
+
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(300px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-300px);
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@media(max-width:900px) {
+    #crouselCaption h1 {
+        font-size: 2rem;
+    }
+
+    #crouselCaption {
+        top: 9rem;
+    }
+}
+
+@media(max-width:460px) {
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+
+.carousel-caption h3,
+h1 {
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+}

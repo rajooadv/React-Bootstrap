@@ -1,0 +1,87 @@
+
+
+
+.testIndiv {
+    border: 1px solid gray;
+    max-width: 100%;
+}
+
+.testIndiv img {
+    border-radius: 50%;
+    max-width: 6rem;
+}
+
+
+.testIndiv h1,
+p {
+    margin: 0;
+}
+
+.headerOfTestIndv {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    max-width: 100%;
+}
+
+.starsOfTestIndv {
+    display: flex;
+    max-width: 100%;
+}
+
+.parentOfTestimonial i.fa.fa-star {
+    font-size: 11px;
+    background: none;
+    color: blue;
+}
+
+.parentOfTestimonial {
+    display: flex;
+    max-width: 100%;
+    gap: 8px;
+
+}
+
+
+@media(max-width:1200px) {
+    .parentOfTestimonial #secondTestIndv {
+        background: purple;
+        display: none;
+    }
+
+}
+
+#TestimonialDiv a.carousel-control-prev {
+    display: none;
+}
+
+#TestimonialDiv a.carousel-control-next {
+    display: none;
+}
+
+
+@media(max-width:745px) {
+    .parentOfTestimonial #thirdTestIndv {
+        background: purple;
+        display: none;
+    }
+
+}
+
+.descOfTestIndv h1 {
+    font-weight: bold;
+    color: #26d48c;
+}
+
+.footerDescTestIndv p {
+    border-top: 1px solid silver;
+    color: gray;
+    padding: 12px;
+}
+
+.descOfTestIndv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
