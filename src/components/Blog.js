@@ -29,15 +29,15 @@ export default function Services() {
 
                                 <div className="btns">
                                     <a href="#">Read More</a>
-                                    <a href="#" id='shareButtonBlog'>Share <i class="fa-solid fa-arrow-right"></i>  </a>
-                                </div>
-                                {/* <div className="overlayBlog"> */}
-                                {/* <div className="socialIcons" id='blogSocialIcons'>
+                                    <a href="#" id='shareButtonBlog'><span>Share   <i class="fa-solid fa-arrow-right"></i></span>
+                                <div className="socialIcons" id='blogSocialIcons'>
                                     <i className="fa-brands fa-facebook-f" id='social'></i>
                                     <i class="fa-brands fa-twitter" id='social'></i>
                                     <i class="fa-brands fa-instagram" id='social'></i>
-                                    <i class="fa-brands fa-linkedin" id='social'></i>
-                                </div> */}
+                                </div>
+                                    </a>
+                                </div>
+                                {/* <div className="overlayBlog"> */}
                                 {/* </div> */}
                             </div>
                             <div className="bottom">

@@ -41,7 +41,7 @@ img {
 
 .blogFooter p {
     font-size: 13px;
-    color: white;
+    color: white; 
 }
 
 .blog a {
@@ -118,10 +118,29 @@ p.blogText {
     font-weight: bold;
 }
 
+#shareButtonBlog:hover .socialIcons {
+    display: block;
+    color: white !important;
+}
+
+#shareButtonBlog:hover span {
+    display: none;
+}
+
+
+.socialIcons {
+    display: none;
+}
+
 @media(max-width:1196px) {
     .blogTopic {
         left: 34%;
     }
+}
+
+i#social {
+    color: white;
+    font-size: 12px;
 }
 
 /* 
