@@ -141,6 +141,8 @@ p.blogText {
 
 i#social {
     color: white;
-    font-size: 12px;
+    font-size: 18px;
+    margin-right: -7px;
+    margin-top: -1.3rem;
 }
 
