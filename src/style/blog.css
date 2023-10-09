@@ -143,20 +143,3 @@ i#social {
     font-size: 12px;
 }
 
-/* 
-#blogSocialIcons i{
-    color: red;
-    position: relative;
-    top: -5rem;
-    right: -13rem;
-    z-index: 8;
-    display: flex;
-    margin-right: -22px;
-    background-color: #26d48c;
-}
-
-
-#blogSocialIcons:hover {
-    visibility: unset;
-    color: green;
-} */

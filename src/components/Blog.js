@@ -37,8 +37,6 @@ export default function Services() {
                                 </div>
                                     </a>
                                 </div>
-                                {/* <div className="overlayBlog"> */}
-                                {/* </div> */}
                             </div>
                             <div className="bottom">
                                 <img src="https://themewagon.github.io/HighTechIT/img/admin.jpg" alt="" className='authorImg' />
