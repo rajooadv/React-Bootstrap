@@ -26,10 +26,19 @@ export default function Services() {
                             </div>
                             <div className="top">
                                 <img src="https://raw.githubusercontent.com/themewagon/HighTechIT/main/img/blog-1.jpg" alt="" className='blogThumbnail' />
+
                                 <div className="btns">
                                     <a href="#">Read More</a>
-                                    <a href="#">Share <i class="fa-solid fa-arrow-right"></i> </a>
+                                    <a href="#" id='shareButtonBlog'>Share <i class="fa-solid fa-arrow-right"></i>  </a>
                                 </div>
+                                {/* <div className="overlayBlog"> */}
+                                {/* <div className="socialIcons" id='blogSocialIcons'>
+                                    <i className="fa-brands fa-facebook-f" id='social'></i>
+                                    <i class="fa-brands fa-twitter" id='social'></i>
+                                    <i class="fa-brands fa-instagram" id='social'></i>
+                                    <i class="fa-brands fa-linkedin" id='social'></i>
+                                </div> */}
+                                {/* </div> */}
                             </div>
                             <div className="bottom">
                                 <img src="https://themewagon.github.io/HighTechIT/img/admin.jpg" alt="" className='authorImg' />

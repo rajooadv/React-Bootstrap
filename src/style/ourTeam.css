@@ -18,8 +18,9 @@
     filter: brightness(100%);
     max-width: 13rem;
     border: 10px solid #26d48c;
-    /* margin-top: -1rem; */
+    margin-top: -1rem;
     z-index: 1;
+    border-top-color: rgb(215, 215, 215);
 }
 
 #ourTeamDiv .shape {

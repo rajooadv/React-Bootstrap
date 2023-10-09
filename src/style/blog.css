@@ -102,12 +102,13 @@ p.blogText {
 }
 
 .btns {
-    margin-top: -2rem;
+    margin-top: -4rem;
     display: flex;
-    gap: 5rem;
+    gap: 7rem;
+    margin-bottom: 2rem;
 }
 
-.btns a{
+.btns a {
     margin-bottom: 6px;
 }
 
@@ -116,3 +117,27 @@ p.blogText {
     color: white;
     font-weight: bold;
 }
+
+@media(max-width:1196px) {
+    .blogTopic {
+        left: 34%;
+    }
+}
+
+/* 
+#blogSocialIcons i{
+    color: red;
+    position: relative;
+    top: -5rem;
+    right: -13rem;
+    z-index: 8;
+    display: flex;
+    margin-right: -22px;
+    background-color: #26d48c;
+}
+
+
+#blogSocialIcons:hover {
+    visibility: unset;
+    color: green;
+} */

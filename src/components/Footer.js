@@ -8,7 +8,7 @@ export default function Footer() {
             <footer>
                 <div className="topOfHeader">
                     <div className="aOfHeader">
-                        <h1 id='logo'>HIGH<span>TECH</span></h1>
+                        <h1 id='logoOfFooter'>HIGH<span>TECH</span></h1>
                         <p className='footerDesc'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta facere delectus qui placeat inventore consectetur repellendus optio debitis.</p>
                         <div className="socialIcons">
                             <i className="fa-brands fa-facebook-f" id='social'></i>

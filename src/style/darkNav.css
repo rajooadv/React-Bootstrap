@@ -66,3 +66,11 @@ marquee {
         display: none;
     }
 }
+
+.darkNav i#social {
+    display: flex;
+}
+
+#aOfFooter #logo{
+    padding-left:12rem ;
+}
