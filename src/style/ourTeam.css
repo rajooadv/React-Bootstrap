@@ -200,6 +200,7 @@
     display: flex;
     color: white;
     align-items: center;
+    padding: 11px;
 }
 
 .testimonialInd {
