@@ -25,10 +25,6 @@ export default function OurTeam() {
 
                         <div class="container-fluid testimonial py-5 my-5">
                             <div class="container py-5">
-                                <div class="text-center mx-auto pb-5 wow fadeIn" data-wow-delay=".3s">
-                                    <h5 class="text-primary">Our Testimonial</h5>
-                                    <h1>Our Client Saying!</h1>
-                                </div>
                                 <div class="owl-carousel testimonial-carousel wow fadeIn" data-wow-delay=".5s">
                                     <div class="testimonial-item border p-4" id='firstIndvTest'>
                                         <div class="d-flex align-items-center">
