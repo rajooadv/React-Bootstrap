@@ -15,7 +15,9 @@
 }
 
 #TestimonialDiv .carousel-indicators .active {
+    padding-left: 2rem;
     background: blue;
+    padding-left: 2rem;
 }
 
 #TestimonialDiv i.fas.fa-star.me-1.text-primary {
