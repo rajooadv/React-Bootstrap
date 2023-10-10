@@ -23,7 +23,7 @@
 }
 
 .testimonial-item h4{
-    color: red;
+    color: #26d48c !important;
 } 
 
 @media(max-width:1400px){
