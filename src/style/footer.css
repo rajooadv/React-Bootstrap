@@ -101,6 +101,7 @@ p.footerDesc {
 
 #logoOfFooter {
     color: white;
+    padding-left: 2rem;
 }
 
 #logoOfFooter span {
