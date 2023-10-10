@@ -16,7 +16,7 @@ import Crad from './Test.js/Crad';
 function App() {
   return (
     <>
-      {/* <Home />
+      <Home />
       <AboutComponent />
       <Services />
       <Projects />
@@ -24,19 +24,8 @@ function App() {
       <OurTeam />
       <Testimonial />
       <Contact />
-      <Footer/> */}
+      <Footer/>
       {/* <NotFound/> */}
-      <div className="d-flex flex-wrap">
-
-      {/* <Crad  ahmad="Usman"  whiteColor="danger" waleed='waleed' img={img1}/>
-      <Crad  ahmad="shayan" whiteColor="info"  waleed="ahmed" img={img2}/>
-      <Crad  ahmad="waleed" whiteColor="warning"  waleed="usman" img={img1}/>
-      <Crad  ahmad="Ahmad"  whiteColor="light" waleed="shayan" img={img2}/> */}
-          <Crad  ahmad="Usman" textColor="pink" waleed='waleed' img={img1}/>
-      <Crad  ahmad="shayan" textColor="red"  waleed="ahmed" img={img2}/>
-      <Crad  ahmad="waleed" textColor="yellow" waleed="usman" img={img1}/>
-      <Crad  ahmad="Ahmad" textColor="green"  waleed="shayan" img={img2}/>
-           </div>
 
     </>
   );
