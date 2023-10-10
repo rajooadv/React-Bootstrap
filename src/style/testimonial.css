@@ -1,0 +1,40 @@
+.owl-carousel.testimonial-carousel.wow.fadeIn {
+    display: flex;
+}
+
+#TestimonialDiv .carousel-indicators button{
+    background: gray;
+}
+
+#TestimonialDiv a.carousel-control-next{
+    display: none;
+}
+
+#TestimonialDiv a.carousel-control-prev{
+    display: none;
+}
+
+#TestimonialDiv .carousel-indicators .active{
+    background: blue;
+}
+
+#TestimonialDiv i.fas.fa-star.me-1.text-primary {
+    padding: 0;
+}
+
+.testimonial-item h4{
+    color: red;
+} 
+
+@media(max-width:1400px){
+    #TestimonialDiv #thirdIndvTest{
+        display: none;
+    }
+}
+
+@media(max-width:995px){
+    #TestimonialDiv #secondIndvTest{
+        display: none;
+    }
+}
+

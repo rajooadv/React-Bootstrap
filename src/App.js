@@ -9,6 +9,7 @@ import Testimonial from './components/Testimonial'
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import NotFound from './components/NotFound';
+
 function App() {
   return (
     <>
@@ -20,9 +21,9 @@ function App() {
       <OurTeam />
       <Testimonial />
       <Contact />
-
       <Footer/>
       {/* <NotFound/> */}
+
     </>
   );
 }

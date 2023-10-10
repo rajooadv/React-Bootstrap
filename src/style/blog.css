@@ -146,3 +146,24 @@ p.blogText {
     margin-top: -1.3rem;
 }
 
+
+
+
+@media(max-width:1090px){
+    .gy-3.my-3.row {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .blog{
+        width: 23rem;
+    }
+}
+
+@media(max-width:550px){
+    .blog{
+        width: unset;
+    }
+}
