@@ -62,7 +62,7 @@ export default function Footer() {
                         </div>
 
                         <div className="footerDesignBy">
-                            <p>Designed by <span>HTML Codex</span>Distributed by <span>ThemeWagon</span> </p>
+                            <p>Designed by <span>HTML Codex</span>Distributed by <span id='lastAnchor'>ThemeWagon</span> </p>
                         </div>
                     </div>
                 </Container>

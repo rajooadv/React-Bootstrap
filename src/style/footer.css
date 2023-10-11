@@ -175,6 +175,19 @@ hr {
     color: #26d48c !important;
 }
 
+#lastAnchor{
+    color: blue;
+    cursor: pointer;
+}
+
+i{
+    cursor: pointer;
+}
+
+#lastAnchor:hover{
+    opacity: 0.7;
+}
+
 .shortLinks i {
     color: #26d48c !important;
     background: none;
