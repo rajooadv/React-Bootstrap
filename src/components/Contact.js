@@ -11,6 +11,7 @@ export default function Contact() {
                     <p className='descContact'>The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a href="#"> Download Now.</a></p>
                 </div>
 
+<div id="bgContact" className='container'></div>
                 <div className="contactsInfo">
                     <div className="addressOfContact">
                         <i class="fa-solid fa-location-dot"></i>

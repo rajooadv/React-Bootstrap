@@ -2,6 +2,12 @@
     display: flex;
 }
 
+#TestimonialDiv .carousel-item {
+    margin-bottom: -6rem;
+    position: relative;
+    top: -7rem;
+}
+
 #TestimonialDiv .carousel-indicators button {
     background: gray;
 }
@@ -55,7 +61,7 @@ h5.text-primary {
     display: flex;
     color: white;
     align-items: center;
-    padding: 13.5px !important;
+    padding: 13px !important;
 }
 
 .fa-facebook-f {

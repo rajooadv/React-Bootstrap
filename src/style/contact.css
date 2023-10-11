@@ -12,12 +12,13 @@
 
 .addressOfContact {
     background: white;
-    max-width: 16rem;
+    max-width: 20rem;
     display: flex;
     align-items: center;
     border-radius: 1rem;
     justify-content: center;
     gap: 1rem;
+    padding: 7px;
 }
 
 i.fa-solid.fa-location-dot {
@@ -30,6 +31,7 @@ i.fa-solid.fa-location-dot {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding-top: 4rem;
 }
 
 
@@ -83,16 +85,24 @@ textarea#validationTextarea {
 }
 
 
-/* .contactsInfo::before {
+
+#bgContact {
+    background: url(https://raw.githubusercontent.com/themewagon/HighTechIT/main/img/background.jpg);
     position: absolute;
-    width: 74rem;
-    height: 32rem;
-    background: url('https://raw.githubusercontent.com/themewagon/HighTechIT/main/img/background.jpg');
-    opacity: .4;
     content: '';
+    height: 26rem;
     z-index: -1;
-    top: 429rem;
-} */
+    margin-top: 2rem;
+    /* opacity: 0.6; */
+    left: 1.5rem;
+    right: 1.5rem;
+}
+
+@media(max-width:1220px) {
+    /* .contactsInfo::before{
+        top: ;
+    } */
+}
 
 @media(max-width:1000px) {
     .formNmap {
