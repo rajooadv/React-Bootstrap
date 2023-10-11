@@ -23,11 +23,11 @@ export default function Footer() {
                         <div className="shortLinks">
                             <h1 className='shortLinkHeading'>Short Links</h1>
                             <div className="footerLinks">
-                                <a href="#">About Us</a>
-                                <a href="#">Contact Us</a>
-                                <a href="#">Our Services</a>
-                                <a href="#">Our Projects</a>
-                                <a href="#">Latest Blog</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>About Us</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Contact Us</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Our Services</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Our Projects</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Latest Blog</a>
                             </div>
                         </div>
 
@@ -35,11 +35,11 @@ export default function Footer() {
                         <div className="shortLinks">
                             <h1 className='shortLinkHeading'>Help Links</h1>
                             <div className="footerLinks">
-                                <a href="#">Terms of Use</a>
-                                <a href="#">Privacy Policy</a>
-                                <a href="#">Helps</a>
-                                <a href="#">FAQ's</a>
-                                <a href="#">Contact</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Terms of Use</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Privacy Policy</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Helps</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>FAQ's</a>
+                                <a href="#"><i class="fas fa-angle-right me-2"/>Contact</a>
                             </div>
                         </div>
 

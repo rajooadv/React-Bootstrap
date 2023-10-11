@@ -114,8 +114,8 @@ footer h1 {
 .footerLinks {
     display: flex;
     flex-direction: column;
-    gap: 11px;
     font-size: 14px !important;
+    align-items: baseline;
 }
 
 .footerContactUs {
@@ -173,6 +173,17 @@ hr {
 
 .footerContactUs i {
     color: #26d48c !important;
+}
+
+.shortLinks i {
+    color: #26d48c !important;
+    background: none;
+    display: flex;
+    margin: 0;
+    padding: 9px;
+    padding-right: 0px;
+    padding-left: 0px;
+    /* padding-bottom: 0px !important; */
 }
 
 .aOfHeader .fa-linkedin {
