@@ -142,7 +142,7 @@ p.blogText {
 }
 
 
-.socialIcons {
+#BlogDiv .socialIcons {
     display: none;
 }
 

@@ -45,8 +45,8 @@
     visibility: hidden;
 }
 
-#imgCardDiv:hover .content{
-   visibility: visible;
+#imgCardDiv:hover .content {
+    visibility: visible;
 }
 
 .content {
@@ -64,11 +64,23 @@
     align-items: center;
 }
 
-.content h1{
+.content h1 {
     font-weight: bold;
     color: #26d48c;
 }
 
-.content p{
+.content p {
     color: white;
+}
+
+@media(max-width:1200px) {
+    #imgCardDiv::before {
+        top: 7.3rem;
+    }
+}
+
+@media(max-width:550px) {
+    #imgCardDiv::before {
+        top: 4.3rem;
+    }
 }

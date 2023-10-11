@@ -1,6 +1,7 @@
 footer {
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
 }
 
 footer h1 {
@@ -19,10 +20,9 @@ footer h1 {
 
 .topOfHeader {
     display: flex;
-    gap: 2.4rem;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
-    padding-right: 3rem;
+    gap: 1rem;
+    padding-bottom: 0rem !important;
+    padding-top: 2rem !important;
 }
 
 .footerLinks a {
@@ -44,44 +44,38 @@ footer h1 {
     align-items: center;
 }
 
-.aOfHeader {
-    width: 39rem;
-    padding-left: 2rem;
-    padding-right: 4rem;
-}
 
 .topOfHeader {
-    display: flex;
-    gap: 2.4rem;
-    padding-bottom: 4rem;
-    padding-top: 4rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
 }
 
 .footerLastLink a {
-    border-bottom: 1px solid;
+    /* border-bottom: 1px solid; */
 }
 
 @media(max-width:1090px) {
 
     .topOfHeader {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /*  */
+
+    .footerContactUs {
         align-items: center;
     }
 
-    .aOfHeader {
-        width: 35rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
+    .shortLinks {
         align-items: center;
     }
 }
 
 p.footerDesc {
     width: 17rem;
-    text-align: center;
+    /* text-align: center; */
+    font-size: 13px;
 }
 
 .footerFoot {
@@ -95,7 +89,7 @@ p.footerDesc {
     border-top: 2px solid #26d48c;
 }
 
-.footerFoot span{
+.footerFoot span {
     color: #26d48c;
 }
 
@@ -106,4 +100,84 @@ p.footerDesc {
 
 #logoOfFooter span {
     color: #26d48c;
+}
+
+footer h1 {
+    font-size: 28px;
+}
+
+.shortLinks {
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.footerLinks {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-size: 14px !important;
+}
+
+.footerContactUs {
+    width: 17rem;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.footerLinks.footerLastLink {
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+    font-size: 14px !important;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+
+.footerContactUs i.fa-solid {
+    background: none;
+    padding: 10px;
+}
+
+hr {
+    background: blue !important;
+    width: 100%;
+    height: 2px;
+    margin-top: -15px;
+    opacity: 1;
+}
+
+#footerContainer .socialIcon {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.topOfHeader .fa-facebook-f {
+    padding-right: 13px !important;
+    padding-left: 10px !important;
+    padding-top: 7px !important;
+}
+
+.aOfHeader .fa-brands:hover {
+    background: #26d48c !important;
+}
+
+@media(max-width:700px) {
+    .topOfHeader {
+        /* display: grid;
+        grid-template-columns: repeat(1, 1fr) !important; */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    p.footerDesc {
+        width: 12rem;
+    }
+
 }
