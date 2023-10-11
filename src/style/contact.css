@@ -16,6 +16,8 @@
     display: flex;
     align-items: center;
     border-radius: 1rem;
+    justify-content: center;
+    gap: 1rem;
 }
 
 i.fa-solid.fa-location-dot {
@@ -32,7 +34,7 @@ i.fa-solid.fa-location-dot {
 
 
 div#contactContainer {
-    padding-bottom: 22rem;
+    padding-bottom: 6rem;
 }
 
 .map {
@@ -116,4 +118,13 @@ textarea#validationTextarea {
     padding: 1rem;
     border-radius: 1rem;
     color: white;
+}
+
+i.fa-solid.fa-location-dot {
+    padding: 12px;
+    color: white;
+    background-color: #26d48c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

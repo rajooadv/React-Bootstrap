@@ -22,7 +22,7 @@ export default function OurTeam() {
 
 
                         <div className="parentTeam">
-                            <div className="testimonialInd">
+                            <div className="testimonialInd" id='firstIndv'>
                                 <div className="shape">
                                 </div>
                                 <img src="https://raw.githubusercontent.com/themewagon/HighTechIT/main/img/team-1.jpg" alt="" />
@@ -91,7 +91,7 @@ export default function OurTeam() {
 
                     <Carousel.Item>
                         <div className="parentTeam">
-                            <div className="testimonialInd">
+                            <div className="testimonialInd" id='firstIndv'>
                                 <div className="shape">
                                 </div>
                                 <img src="https://raw.githubusercontent.com/themewagon/HighTechIT/main/img/team-3.jpg" alt="" />

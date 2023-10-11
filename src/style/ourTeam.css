@@ -24,7 +24,8 @@
 }
 
 #ourTeamDiv .shape {
-    clip-path: polygon(0 1%, 100% 0, 100% 19%, 100% 18%, 49% 46%, 0 19%);
+    /* clip-path: polygon(0 1%, 100% 0, 100% 19%, 100% 18%, 49% 46%, 0 19%); */
+    clip-path: polygon(0 1%, 100% 0, 100% 22%, 100% 21%, 49% 64%, 1% 21%);
     background-color: #26d48c;
     position: relative;
     content: '';
@@ -200,11 +201,16 @@
     display: flex;
     color: white;
     align-items: center;
-    padding: 11px;
 }
 
 .testimonialInd {
     padding-bottom: 1rem;
     margin-top: -4rem;
 
+}
+
+@media(max-width:380px) {
+    #firstIndv {
+        display: none !important;
+    }
 }

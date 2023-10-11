@@ -49,3 +49,23 @@ h5.text-primary {
         display: none;
     }
 }
+
+.testimonialInd i {
+    background-color: #26d48c;
+    display: flex;
+    color: white;
+    align-items: center;
+    padding: 12px;
+}
+
+.fa-facebook-f {
+    padding: 14px !important;
+}
+
+i.fas.fa-share {
+    padding: 4px;
+}
+
+i.fa-solid.fa-comments {
+    padding: 3px;
+}

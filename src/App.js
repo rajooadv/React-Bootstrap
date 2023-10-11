@@ -10,8 +10,8 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 import NotFound from './components/NotFound';
 import Crad from './Test.js/Crad';
- import img1 from './Test.js/photo-1542816417-0983c9c9ad53.avif'
- import img2 from './Test.js/photo-1609599006353-e629aaabfeae.avif'
+import img1 from './Test.js/photo-1542816417-0983c9c9ad53.avif'
+import img2 from './Test.js/photo-1609599006353-e629aaabfeae.avif'
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
       <OurTeam />
       <Testimonial />
       <Contact />
-      <Footer/>
+      <Footer />
       {/* <NotFound/> */}
 
     </>
