@@ -50,9 +50,6 @@ footer h1 {
     grid-template-columns: repeat(4, 1fr);
 }
 
-.footerLastLink a {
-    /* border-bottom: 1px solid; */
-}
 
 @media(max-width:1090px) {
 
@@ -61,7 +58,6 @@ footer h1 {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    /*  */
 
     .footerContactUs {
         align-items: center;
