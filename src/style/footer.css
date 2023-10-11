@@ -166,6 +166,20 @@ hr {
     background: #26d48c !important;
 }
 
+.aOfHeader .fa-instagram {
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 7px;
+    padding-bottom: 2rem !important;
+}
+
+.aOfHeader .fa-linkedin {
+    padding-right: 9px;
+    padding-left: 9px;
+    padding-top: 7px;
+    padding-bottom: 2rem !important;
+}
+
 @media(max-width:700px) {
     .topOfHeader {
         /* display: grid;
